@@ -1,0 +1,196 @@
+{
+  ".env": {
+    "filename": ".env",
+    "path": ".env",
+    "version": "1.2",
+    "contextFile": "76fab668-context.json",
+    "chunks": {
+      "62971c": {
+        "user": "Vishal Kapoor",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778167469,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "0a79253b"
+        },
+        "hash": "443da04f",
+        "messageId": "system_b507e710-4a27-11f1-beb7-3340f93c2371",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "ff55ff": {
+        "user": "Vishal Kapoor",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778170691,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "1690dbc9"
+        },
+        "hash": "80ea6bb1",
+        "messageId": "system_4c384330-4a2f-11f1-beb7-3340f93c2371",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "ff55ff",
+        "hash": "dfe31b5b",
+        "encoded": "#%20LLM%20Configuration",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "ff55ff",
+        "hash": "3fe95880",
+        "encoded": "OLLAMA_MODEL=llama3.1:8b",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "ff55ff",
+        "hash": "df78519e",
+        "encoded": "OLLAMA_BASE_URL=http://127.0.0.1:11434",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "ff55ff",
+        "hash": "c28ce7f9",
+        "encoded": "GROQ_API_KEY=your_groq_key_here",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "ff55ff",
+        "hash": "5607feb9",
+        "encoded": "USE_GROQ=false",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "62971c",
+        "hash": "17522d09",
+        "encoded": "OLLAMA_MODEL=llama3.1:8b",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "62971c",
+        "hash": "3c841ec1",
+        "encoded": "GROQ_API_KEY=your_groq_key_here",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "62971c",
+        "hash": "0ea1bbc3",
+        "encoded": "USE_GROQ=false",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "62971c",
+        "hash": "c29715eb",
+        "encoded": "#%20Google%20API%20Credentials",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "62971c",
+        "hash": "4400e138",
+        "encoded": "GOOGLE_CLIENT_ID=your_google_client_id",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "62971c",
+        "hash": "b351a775",
+        "encoded": "GOOGLE_CLIENT_SECRET=your_google_client_secret",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "62971c",
+        "hash": "08297ddc",
+        "encoded": "GOOGLE_REDIRECT_URI=http://localhost:8080",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "62971c",
+        "hash": "c63f62ae",
+        "encoded": "#%20Search%20APIs%20(Optional%20fallbacks)",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "62971c",
+        "hash": "974348b9",
+        "encoded": "GOOGLE_SEARCH_API_KEY=",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "62971c",
+        "hash": "f1a17f78",
+        "encoded": "GOOGLE_CSE_ID=",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "62971c",
+        "hash": "722e7b18",
+        "encoded": "BING_SEARCH_API_KEY=",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "62971c",
+        "hash": "e8d50ec4",
+        "encoded": "#%20Hunter.io%20(Optional)",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "62971c",
+        "hash": "6916ccb0",
+        "encoded": "HUNTER_API_KEY=",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "62971c",
+        "hash": "6c3c3b41",
+        "encoded": "#%20Slack%20Webhook",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "62971c",
+        "hash": "24340977",
+        "encoded": "SLACK_WEBHOOK_URL=",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "62971c",
+        "hash": "588b5555",
+        "encoded": "#%20App%20Settings",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "62971c",
+        "hash": "7bfe996e",
+        "encoded": "LOG_LEVEL=INFO",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "62971c",
+        "hash": "5c4e3a7e",
+        "encoded": "DRY_RUN=true",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "62971c",
+        "hash": "b9c2a451",
+        "encoded": "DATABASE_URL=sqlite:///./morning_leads.db",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "62971c",
+        "hash": "5731016c",
+        "encoded": "TIMEZONE=Asia/Kolkata",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

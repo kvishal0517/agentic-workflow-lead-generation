@@ -4,24 +4,22 @@ agency:
   target_audience: "Small to mid-sized businesses looking to optimize operations."
 
 icp:
-  industries:
-    - "Real Estate"
-    - "Legal Services"
-    - "Healthcare Clinics"
-    - "E-commerce"
-  company_size: "5-50 employees"
-  geography: "USA, Canada, UK"
-  roles:
-    - "Founder"
-    - "CEO"
-    - "Marketing Director"
-    - "Operations Manager"
-  pain_points:
-    - "Manual data entry"
-    - "Outdated website"
-    - "Slow lead response time"
-    - "Lack of CRM automation"
+  industries: ["Healthcare", "EdTech", "Legal", "Fitness"]
+  company_size: "10-200 employees"
+  geographies: ["India", "UAE", "Singapore"]
+  roles: ["Founder", "CEO", "Marketing Head", "CTO"]
+  signals:
+    - "hiring web developers"
+    - "no website / outdated website"
+    - "recently funded"
+    - "expanding online presence"
+  keywords: ["digital transformation", "online presence", "website revamp"]
   exclude:
-    - "Freelancers"
-    - "Fortune 500 companies"
-    - "Government agencies"
+    - "agency"
+    - "freelancer"
+    - "competitor"
+
+your_offer:
+  service: "Tailored portfolios, websites, and AI automation agents"
+  value_prop: "Launch a premium website in 2 weeks with built-in automation"
+  proof: "Built sites for IIT-style programs, doctors, lawyers, gyms"

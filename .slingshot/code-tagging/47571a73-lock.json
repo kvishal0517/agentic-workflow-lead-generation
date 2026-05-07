@@ -1,0 +1,101 @@
+{
+  "src\\database\\database.py": {
+    "filename": "database.py",
+    "path": "src\\database\\database.py",
+    "version": "1.2",
+    "contextFile": "47571a73-context.json",
+    "chunks": {
+      "c69cb0": {
+        "user": "Vishal Kapoor",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778167470,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "0a79253b"
+        },
+        "hash": "90dc4b62",
+        "messageId": "system_b507e710-4a27-11f1-beb7-3340f93c2371",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "c69cb0",
+        "hash": "d85de5c6",
+        "encoded": "from%20sqlalchemy%20import%20create_engine",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "c69cb0",
+        "hash": "9e155a6c",
+        "encoded": "from%20sqlalchemy.orm%20import%20sessionmaker",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "c69cb0",
+        "hash": "97b3fd2d",
+        "encoded": "from%20.models%20import%20Base",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "c69cb0",
+        "hash": "1c529dee",
+        "encoded": "import%20os",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "c69cb0",
+        "hash": "d6b35ae1",
+        "encoded": "#%20Database%20URL%20from%20environment%20or%20default%20to%20SQLite",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "c69cb0",
+        "hash": "5e9ef628",
+        "encoded": "DATABASE_URL%20=%20os.getenv(%22DATABASE_URL%22,%20%22sqlite:///./morning_leads.db%22)",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "c69cb0",
+        "hash": "7d72cd4f",
+        "encoded": "#%20Create%20engine",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "c69cb0",
+        "hash": "e8cf237f",
+        "encoded": "engine%20=%20create_engine(DATABASE_URL)",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "c69cb0",
+        "hash": "dcc609a7",
+        "encoded": "#%20Create%20SessionLocal%20class",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "c69cb0",
+        "hash": "3f723b46",
+        "encoded": "SessionLocal%20=%20sessionmaker(autocommit=False,%20autoflush=False,%20bind=engine)",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "c69cb0",
+        "hash": "5b5ccb95",
+        "encoded": "#%20Create%20tables",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "c69cb0",
+        "hash": "a8d3bb59",
+        "encoded": "Base.metadata.create_all(bind=engine)",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

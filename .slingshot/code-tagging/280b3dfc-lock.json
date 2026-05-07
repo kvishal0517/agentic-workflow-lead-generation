@@ -1,0 +1,167 @@
+{
+  "config\\icp.yaml": {
+    "filename": "icp.yaml",
+    "path": "config\\icp.yaml",
+    "version": "1.2",
+    "contextFile": "280b3dfc-context.json",
+    "chunks": {
+      "d4bcae": {
+        "user": "Vishal Kapoor",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778167471,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "0a79253b"
+        },
+        "hash": "466eb960",
+        "messageId": "system_b507e710-4a27-11f1-beb7-3340f93c2371",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "d4bcae",
+        "hash": "1f6fd4db",
+        "encoded": "agency:",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "d4bcae",
+        "hash": "e17ce649",
+        "encoded": "name:%20%22AI%20Automation%20Agency%22",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "d4bcae",
+        "hash": "96d128f5",
+        "encoded": "description:%20%22B2B%20Agency%20selling%20website%20development%20and%20AI%20automation%20solutions.%22",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "d4bcae",
+        "hash": "e2ae1ba1",
+        "encoded": "target_audience:%20%22Small%20to%20mid-sized%20businesses%20looking%20to%20optimize%20operations.%22",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "d4bcae",
+        "hash": "20c64041",
+        "encoded": "icp:",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "d4bcae",
+        "hash": "05a4511a",
+        "encoded": "industries:%20%5B%22Healthcare%22,%20%22EdTech%22,%20%22Legal%22,%20%22Fitness%22%5D",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "d4bcae",
+        "hash": "5d63004c",
+        "encoded": "company_size:%20%2210-200%20employees%22",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "d4bcae",
+        "hash": "669aa984",
+        "encoded": "geographies:%20%5B%22India%22,%20%22UAE%22,%20%22Singapore%22%5D",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "d4bcae",
+        "hash": "b39e26e0",
+        "encoded": "roles:%20%5B%22Founder%22,%20%22CEO%22,%20%22Marketing%20Head%22,%20%22CTO%22%5D",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "d4bcae",
+        "hash": "25f6b300",
+        "encoded": "signals:",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "d4bcae",
+        "hash": "659368a6",
+        "encoded": "-%20%22hiring%20web%20developers%22",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "d4bcae",
+        "hash": "eced7254",
+        "encoded": "-%20%22no%20website%20/%20outdated%20website%22",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "d4bcae",
+        "hash": "8ce9e977",
+        "encoded": "-%20%22recently%20funded%22",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "d4bcae",
+        "hash": "9e418135",
+        "encoded": "-%20%22expanding%20online%20presence%22",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "d4bcae",
+        "hash": "e8543727",
+        "encoded": "keywords:%20%5B%22digital%20transformation%22,%20%22online%20presence%22,%20%22website%20revamp%22%5D",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "d4bcae",
+        "hash": "8345a48e",
+        "encoded": "exclude:",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "d4bcae",
+        "hash": "d3fe7016",
+        "encoded": "-%20%22agency%22",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "d4bcae",
+        "hash": "44a3200c",
+        "encoded": "-%20%22freelancer%22",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "d4bcae",
+        "hash": "a42f3e90",
+        "encoded": "-%20%22competitor%22",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "d4bcae",
+        "hash": "3b7b390e",
+        "encoded": "your_offer:",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "d4bcae",
+        "hash": "832505c8",
+        "encoded": "service:%20%22Tailored%20portfolios,%20websites,%20and%20AI%20automation%20agents%22",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "d4bcae",
+        "hash": "3537a156",
+        "encoded": "value_prop:%20%22Launch%20a%20premium%20website%20in%202%20weeks%20with%20built-in%20automation%22",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "d4bcae",
+        "hash": "c8a2ea26",
+        "encoded": "proof:%20%22Built%20sites%20for%20IIT-style%20programs,%20doctors,%20lawyers,%20gyms%22",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

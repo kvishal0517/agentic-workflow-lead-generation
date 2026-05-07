@@ -1,0 +1,64 @@
+{
+  "src\\agents\\nodes\\discovery.py": {
+    "filename": "discovery.py",
+    "path": "src\\agents\\nodes\\discovery.py",
+    "version": "1.2",
+    "contextFile": "b8f471c2-context.json",
+    "chunks": {
+      "7d4cbd": {
+        "user": "Vishal Kapoor",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778167471,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "0a79253b"
+        },
+        "hash": "20f655d9",
+        "messageId": "system_b507e710-4a27-11f1-beb7-3340f93c2371",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "d28410": {
+        "user": "Vishal Kapoor",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778167471,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "0a79253b"
+        },
+        "hash": "1d49bcc5",
+        "messageId": "system_b507e710-4a27-11f1-beb7-3340f93c2371",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "15": {
+        "chunkId": "d28410",
+        "hash": "71f86eca",
+        "encoded": "Target%20Roles:%20%7Bicp%5B'icp'%5D%5B'roles'%5D%7D",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "d28410",
+        "hash": "f91e5ae8",
+        "encoded": "Geography:%20%7Bicp%5B'icp'%5D%5B'geographies'%5D%7D",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "7d4cbd",
+        "hash": "8fa71818",
+        "encoded": "queries%20=%20%5Bf%22%7Bind%7D%20companies%20in%20%7Bstate%5B'icp_config'%5D%5B'icp'%5D%5B'geographies'%5D%5B0%5D%7D%22%20for%20ind%20in%20state%5B'icp_config'%5D%5B'icp'%5D%5B'industries'%5D%5D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

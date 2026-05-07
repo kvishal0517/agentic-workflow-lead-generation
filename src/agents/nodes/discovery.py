@@ -14,7 +14,7 @@ async def discovery_node(state: AgentState) -> AgentState:
     Based on the following ICP (Ideal Customer Profile), generate 5 specific Google search queries to find potential B2B leads.
     Target Industries: {icp['icp']['industries']}
     Target Roles: {icp['icp']['roles']}
-    Geography: {icp['icp']['geography']}
+    Geography: {icp['icp']['geographies']}
     
     Return the queries as a JSON list of strings.
     """
@@ -25,7 +25,7 @@ async def discovery_node(state: AgentState) -> AgentState:
         if isinstance(queries, dict): queries = queries.get("queries", [])
     except Exception as e:
         logger.error(f"Failed to generate queries: {e}")
-        queries = [f"{ind} companies in {state['icp_config']['icp']['geography'][0]}" for ind in state['icp_config']['icp']['industries']]
+        queries = [f"{ind} companies in {state['icp_config']['icp']['geographies'][0]}" for ind in state['icp_config']['icp']['industries']]
 
     state['queries'] = queries
     

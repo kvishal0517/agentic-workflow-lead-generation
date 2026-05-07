@@ -1,0 +1,41 @@
+{
+  "scripts\\run_daily.py": {
+    "filename": "run_daily.py",
+    "path": "scripts\\run_daily.py",
+    "version": "1.2",
+    "contextFile": "7e3b0469-context.json",
+    "chunks": {
+      "954a16": {
+        "user": "Vishal Kapoor",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778167470,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "0a79253b"
+        },
+        "hash": "346acaa6",
+        "messageId": "system_b507e710-4a27-11f1-beb7-3340f93c2371",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "7": {
+        "chunkId": "954a16",
+        "hash": "887f2bbc",
+        "encoded": "from%20src.database.database%20import%20SessionLocal",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "954a16",
+        "hash": "2cb703bd",
+        "encoded": "from%20src.database.models%20import%20Run",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

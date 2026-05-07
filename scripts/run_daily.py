@@ -5,7 +5,8 @@ import os
 from loguru import logger
 from dotenv import load_dotenv
 from src.agents.graph import create_lead_hunter_graph
-from src.database.models import SessionLocal, Run
+from src.database.database import SessionLocal
+from src.database.models import Run
 from datetime import datetime
 import httpx
 
