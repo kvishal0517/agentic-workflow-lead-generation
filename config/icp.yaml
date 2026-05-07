@@ -1,0 +1,27 @@
+agency:
+  name: "AI Automation Agency"
+  description: "B2B Agency selling website development and AI automation solutions."
+  target_audience: "Small to mid-sized businesses looking to optimize operations."
+
+icp:
+  industries:
+    - "Real Estate"
+    - "Legal Services"
+    - "Healthcare Clinics"
+    - "E-commerce"
+  company_size: "5-50 employees"
+  geography: "USA, Canada, UK"
+  roles:
+    - "Founder"
+    - "CEO"
+    - "Marketing Director"
+    - "Operations Manager"
+  pain_points:
+    - "Manual data entry"
+    - "Outdated website"
+    - "Slow lead response time"
+    - "Lack of CRM automation"
+  exclude:
+    - "Freelancers"
+    - "Fortune 500 companies"
+    - "Government agencies"
